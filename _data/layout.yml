@@ -5,12 +5,12 @@ animation: "bounceOut"
 # Images
 
 logo: "logo.svg"
-hero: "hero-bg.jpg"
-avatar: "travitar.jpg"
+hero: "nightlife.jpg"
+avatar: "me.jpg"
 
 # Colors
 
-accent: "#c99065"
+accent: "#777"
 
 textColor: "#666"
 headlineColor: "#333"
