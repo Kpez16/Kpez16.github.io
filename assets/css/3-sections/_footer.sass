@@ -1,6 +1,10 @@
 footer
-  @extend %background-image
-  background-image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  background-color: #777
+  padding: 40px 0
+  position: fixed
+  bottom: 0
+  width: 100%
+  z-index: -1
 
   .lockup
     padding: 50px 30px
@@ -18,7 +22,7 @@ footer
 
       a
         @extend %small-bold
-        color: rgba(0,0,0,0.5)
+        color: white
         display: inline-block
         margin-right: 30px
 

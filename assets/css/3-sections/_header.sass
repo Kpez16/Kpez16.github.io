@@ -1,19 +1,30 @@
 header
+  position: relative
+  width: 100%
+  height: 475px
+  overflow: hidden
   @extend %background-image
   background:
-    position: 30px 20px, 50% 50%
+    attachment: fixed
+    size: cover 
+    position: bottom center
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
-  padding-bottom: 50px
-
 
   .logo
     +size(50px)
     float: left
     margin: 10px 0 0 30px
+    
 
     path
       fill: rgba(0,0,0,0.4)
 
+  .nav-bar
+    height: 75px
+    width: 100%
+    background-color: rgba(255,255,255,0.5)
+    position: fixed
+    
   nav
     float: right
     padding: 30px 30px 0 0
@@ -27,25 +38,24 @@ header
 
       &:hover
         color: rgba(0,0,0,1)
-
-  h1
+    
+  .headline-lockup
+    position: absolute
+    width: 100%
+    margin-top: 50px
+    
+  h1.headline
     text-align: center
     font:
-      size: 72px
+      size: 100px
       weight: 700
     color: white
     text-transform: uppercase
     letter-spacing: 0.05em
-    margin-bottom: 20px
     clear: both
-    padding-top: 100px
-
-
-    span
-      display: inline-block
-      padding: 0.2em 0.5em
-      border: white solid 10px
-
+    padding-top: 200px
+    margin: 0
+    
   .kicker
     @extend %small-bold
     text-align: center

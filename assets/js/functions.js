@@ -1,3 +1,17 @@
+var pContainerHeight = $('#header').height();
+
+$(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  if (wScroll <= pContainerHeight) {
+
+    $('.headline-lockup').css({
+      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+    });
+  }
+});
+
 $(function() {
 	smoothScroll(300);
 	workBelt();

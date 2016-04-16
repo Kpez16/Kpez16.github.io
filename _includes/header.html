@@ -1,12 +1,19 @@
 <header id="header">
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="../assets/img/logo.svg"> 
+      </div>
 
-  <nav>
-    {% for item in site.data.settings.menu %}
-      <a href="{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
-  </nav>
+      <nav>
+        {% for item in site.data.settings.menu %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
 
-  <h1><span>{{ site.data.settings.title }}</span></h1>
-  <p class="kicker">{{ site.data.settings.description }}</p>
+    <div class="headline-lockup">
+      <h1 class="headline">{{ site.data.settings.title }}</h1>
+      <p class="kicker">{{ site.data.settings.description }}</p>
+    </div>
 
 </header>
