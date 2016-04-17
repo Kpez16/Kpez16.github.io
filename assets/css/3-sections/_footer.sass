@@ -7,12 +7,12 @@ footer
   z-index: -1
 
   .lockup
-    padding: 50px 30px
+    padding: 50px 0px
     +clearfix
 
     .content-wrap
       float: left
-      margin-left: 80px
+      margin-left: 20px
 
       .copyright
         margin: 0
@@ -28,3 +28,19 @@ footer
 
         &:hover
           color: rgba(0,0,0,0.7)
+        
+  .me-pic
+    width: 160px
+    -webkit-filter: grayscale(100%)
+    
+  .me-bottom
+    float: right
+    position: absolute
+    bottom: -10px
+    right: 30px
+
+  @media (max-width: 650px)
+    .content-wrap
+      margin-left: 0
+    .me-pic
+      width: 80px

@@ -13,7 +13,7 @@ $(window).scroll(function(){
 });
 
 $(function() {
-	smoothScroll(300);
+	smoothScroll(800);
 	workBelt();
 	workLoad();
 	clientStuff();

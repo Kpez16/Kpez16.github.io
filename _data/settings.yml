@@ -56,14 +56,14 @@ skills:
 # Work Section
 
 projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Julia Pezant Photography, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Andys Appliance Repair, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Ecomm App Ruby on Rails, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Logo Concepts, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Illustrations, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Contemporary Cabinets Concept, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
 
@@ -72,16 +72,16 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
+- {avatar: 'julia.jpg',
+  name: 'Julia Pezant',
+  title: 'Professional Photographer, Julia Pezant Photography',
   quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
-  logo: 'logo1.png'}
-- {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
-  title: 'Eater of Salad, Antartica Int.',
+  logo: 'JPlogo.png'}
+- {avatar: 'Andy.jpg',
+  name: 'Andy Estrada',
+  title: 'Master Repairman, Andys Repair',
   quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
-  logo: 'logo2.png'}
+  logo: 'AndyLogo.png'}
 - {avatar: 'face-jackiesaik.jpg',
   name: 'Stacy Lang',
   title: 'Social Media Girl, Quebec Int.',
@@ -98,11 +98,11 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'twitter', link: 'http://twitter.com/kylepezant'}
 - {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
 - {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
 - {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/kylepezant/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

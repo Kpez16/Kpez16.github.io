@@ -4,13 +4,13 @@ animation: "bounceOut"
 
 # Images
 
-logo: ""
 hero: "nightlife.jpg"
 avatar: "me.jpg"
 
 # Colors
 
 accent: "#777"
+accent2: "#FFF6E5"
 
 textColor: "#666"
 headlineColor: "#333"

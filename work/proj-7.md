@@ -1,5 +1,5 @@
 ---
-title: Weather Dashboard
+title: Illustrations
 ---
 
 ![Weather Dashboard](assets/img/work/proj-7/img0.jpg)
