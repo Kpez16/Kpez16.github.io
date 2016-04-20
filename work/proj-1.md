@@ -2,11 +2,9 @@
 title: Julia Pezant Photography
 ---
 
-![Julia Pezant](assets/img/work/proj-1/img1.jpg)
+![Julia Pezant](assets/img/ThumbPlaceholder.png)
 
-TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
+Julia Pezant Photography: Julia Pezant is an Oklahoma City based professional photographer. She has a knack for getting the best out of people when behind the camera, bringing genuine moments and true personality through her photography. 
 
-![Typo International](assets/img/work/proj-1/img2.jpg)
-![Typo International](assets/img/work/proj-1/img3.jpg)
-![Typo International](assets/img/work/proj-1/img4.jpg)
-![Typo International](assets/img/work/proj-1/img5.jpg)
+I will be designing/coding her website shortly! The thumbnail introduces her new logo which has a bold foundation with a little splash of flare.
+
