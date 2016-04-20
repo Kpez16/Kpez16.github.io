@@ -72,7 +72,7 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'julia.jpg',
+- {avatar: 'Julia.jpg',
   name: 'Julia Pezant',
   title: 'Professional Photographer, Julia Pezant Photography',
   quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
