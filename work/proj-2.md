@@ -1,5 +1,5 @@
 ---
-title: Ecomm App with Ruby on Rails
+title: Andy's Repair Service
 ---
 
-![Ecomm App](assets/img/work/proj-2/CityIn-AntonSkvortsov.jpg)
+![Andys Appliance Repair](assets/img/work/proj-2/CityIn-AntonSkvortsov.jpg)
