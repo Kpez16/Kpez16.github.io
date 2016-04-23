@@ -53,7 +53,7 @@ $('.quick').mouseover(function() {
     $('.icon-rocket').css('background-color', 'cadetblue');
 });
 
-$('.thumbsUp').mouseo(function() {
+$('.thumbsUp').mouseover(function() {
     $('.icon-thumb').css('background-color', 'coral');
 });
 
