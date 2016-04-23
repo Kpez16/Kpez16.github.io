@@ -2,4 +2,4 @@
 title: World Experiences Foundation
 ---
 
-![Timeline Page](assets/img/work/proj-6/WEFScreenShot.jpg)
+![World Experiences Foundation](assets/img/work/proj-6/WEFScreenShot.jpg)

@@ -39,6 +39,24 @@ function smoothScroll (duration) {
 	});
 }
 
+//About color changing icons on hover over words
+
+$('.lfc').mouseover(function() {
+    $('.icon-soccer').css('background-color', 'red');
+});
+
+$('.oklahoma').mouseover(function() {
+    $('.icon-scissortail').css('background-color', 'green');
+});
+
+$('.quick').mouseover(function() {
+    $('.icon-rocket').css('background-color', 'cadetblue');
+});
+
+$('.thumbsUp').mouseo(function() {
+    $('.icon-thumb').css('background-color', 'coral');
+});
+
 
 function workBelt() {
 

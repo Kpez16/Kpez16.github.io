@@ -5,7 +5,6 @@ title: Kyle Pezant
 description:  Creative || Tech Lover || Problem Solver
 email: kpez16@gmail.com
 
-# NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
 - {name: About Me, url: '#about-me'}
@@ -39,18 +38,8 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Kyle Pezant** is a tech loving creative type with a non-conformist attitude. He is passionate about learning and creating. He enjoys being the biggest Liverpool FC fan in Oklahoma and has an uncanny ability to learn things very quickly. A solid
+  **Kyle Pezant** is a tech loving creative type with a non-conformist attitude. He is passionate about learning and creating. He enjoys being the biggest Liverpool FC fan in Oklahoma and has an uncanny ability to learn things very quickly.
 
-
-skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
 
 #-------------------------------
 # Work Section
@@ -58,7 +47,7 @@ skills:
 projects:
 - {name: Julia Pezant Photography, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: Andys Appliance Repair, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Ecomm App Ruby on Rails, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Ecomm App, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Logo Concepts, folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
