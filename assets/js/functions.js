@@ -41,7 +41,7 @@ function smoothScroll (duration) {
 
 //About color changing icons on hover over words
 
-$('.lfc').mouseover(function() {
+/*$('.lfc').mouseover(function() {
     $('.icon-soccer').css('background-color', 'red');
 });
 
@@ -55,8 +55,23 @@ $('.quick').mouseover(function() {
 
 $('.thumbsUp').mouseover(function() {
     $('.icon-thumb').css('background-color', 'coral');
-});
+});*/
 
+//Floating Cards
+$(window).scroll(function(){
+
+ var wScroll = $(this).scrollTop();
+
+ if(wScroll > $('.cards').offset().top - $(window).height()){
+
+    var offset = (Math.min(0, wScroll - $('.cards').offset().top +$(window).height() - 350)).toFixed();
+
+    $('.card-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
+
+    $('.card-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
+
+  }
+});
 
 function workBelt() {
 
@@ -134,12 +149,8 @@ function clientStuff() {
         } else {
           $('.active-client').removeClass('active-client').prev().addClass('active-client');
         }
-
       }
-
-
   });
-
 }
 
 

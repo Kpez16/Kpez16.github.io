@@ -1,3 +1,6 @@
+.about
+  overflow: hidden
+
 #about-me
   margin: 0
 
@@ -79,52 +82,16 @@
   font-weight: 300
 
 
-
-.skill-lockup
-  max-width: 320px
+//cards
+.cards
+  padding-bottom: 50px
+  max-width: 620px
   margin: 0 auto
-  padding: 100px 0px
-  color: #999
-  +clearfix
-
-
-  .skill-unit
-    width: 270px
-    float: left
-
-  .skill-icons
-    font-size: 0
-    margin: 3px 0 30px
-
-    span
-      display: inline-block
-      +size(14px)
-      background-color: $accent
-      margin-right: 8px
-      border-radius: 50%
-
-      &:after
-        content: ''
-        display: block
-        +size(10px)
-        background: #fff
-        border-radius: 50%
-        margin: 2px
-
-    @for $i from 1 through 10
-      &.skill-#{$i} span:nth-child(n+#{$i+1})
-        @extend %skill-color
-
-
-%skill-color
-  background: $bgcolor
-
-
-
-
-@media screen and (max-width: 541px)
-  .skill-lockup
-    width: 220px
-
-    .skill-unit
-      width: 220px
+  
+  .card
+    border: 1px solid grey
+    border-radius: 5px
+    text-align: center
+    background: white
+    position: relative
+    padding: 20px 0 
