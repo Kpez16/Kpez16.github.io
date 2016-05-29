@@ -21,24 +21,38 @@
   <div class="cards row">
   
       <div class="card columns four card-1">
-      
-          <p>Career Foundry Certificate</p>
-          <a class="button" href="#">View</a>
-      
+          <img class="thumbnail" src="../assets/img/thumbnail%20CF-01.jpg">
+          <p>Career Foundry</p>
+          <a class="button" href="#modal1" rel="modal:open">View</a>
       </div>
+      
       <div class="card columns four card-2">
-      
+          <img class="thumbnail" src="../assets/img/thumbnail%20resume.jpg">
           <p>Resume'</p>
-          <a class="button" href="#">Download</a>
-          
+          <a class="button" href="#modal2" rel="modal:open">View</a>
       </div>
+      
       <div class="card columns four card-3">
-      
-          <p>OK Coders Certificate</p>
-          <a class="button" href="#">View</a>
-      
+          <img class="thumbnail" src="../assets/img/okcoders%20thumb-01-01.jpg">
+          <p>OK Coders</p>
+          <a class="button" href="#modal3" rel="modal:open">View</a>
       </div>
     
+  </div>
+    
+  <div class="modal" id="modal1" style="display:none">
+      <object id="CF" data="../assets/img/CF.pdf"></object>
+      <a class="button" href="../assets/img/CF.pdf" download>Download</a>
+  </div>
+    
+  <div class="modal" id="modal2" style="display:none">
+      <object id="resume" data="../assets/img/Design%20Resume.pdf"></object>
+      <a class="button" href="../assets/img/Design%20Resume.pdf" download>Download</a>
+  </div>
+    
+  <div class="modal" id="modal3" style="display:none">
+      <object id="OKCoders" data="../assets/img/CF.pdf"></object>
+      <a href="#" rel="modal:close">close</a>
   </div>
 
 </section>
