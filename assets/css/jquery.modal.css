@@ -41,6 +41,12 @@
   text-align: left;
 }
 
+@media screen and (max-width: 400px) {
+    .modal {
+        max-width: 280px;
+    }
+}
+
 .modal a.close-modal {
   position: absolute;
   top: -12.5px;
