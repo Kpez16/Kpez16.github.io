@@ -69,7 +69,7 @@ clients:
 - {avatar: 'Andy.jpg',
   name: 'Andy Estrada',
   title: 'Master Repairman, Andys Repair',
-  quote: '<p><strong>Kyle is awesome!</strong> He takes his work seriously and takes into </p>',
+  quote: '<p>Kyle does excellent work with a lot of <strong>attention to detail</strong>. I frequently get compliments from customers on the quality of my business cards, and I could not be more pleased with the results.</p>',
   logo: 'AndyLogo.png'}
 - {avatar: 'Akash.jpg',
   name: 'Akash Patel',

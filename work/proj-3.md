@@ -6,4 +6,6 @@ This will showcase an ecommapp I built as a project from the ground up. Utilizin
 
 I will be revisiting this project soon to re-style in a more modern ecomm site style.
 
+![Bikes-n-Stuff](assets/img/work/proj-3/EcommAppSmall.png)
+
 [Bikes-N-Stuff](http://kpez-app.herokuapp.com)
