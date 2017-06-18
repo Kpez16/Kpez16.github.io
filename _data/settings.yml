@@ -45,7 +45,7 @@ blurb: >
 # Work Section
 
 projects:
-- {name: Julia Pezant Photography, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Sketch Work, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: Andys Appliance Repair, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Ecomm App, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Logo Concepts, folder: 'proj-4', file: 'work/proj-4.html'}
@@ -61,11 +61,11 @@ projects:
 # Clients Section
 
 clients:
-- {avatar: 'Julia.jpg',
-  name: 'Julia Pezant',
-  title: 'Professional Photographer, Julia Pezant Photography',
-  quote: '<p><strong>Super pro, </strong>Kyle shows a passion in his work. He loves what he does and it is noticeable to anyone.</p>',
-  logo: 'JPlogo.png'}
+#- {avatar: 'Julia.jpg',
+  #name: 'Julia Pezant',
+  #title: 'Professional Photographer, Julia Pezant Photography',
+  #quote: '<p><strong>Super pro, </strong>Kyle shows a passion in his work. He loves what he does and it is noticeable to anyone.</p>',
+  #logo: 'JPlogo.png'}
 - {avatar: 'Andy.jpg',
   name: 'Andy Estrada',
   title: 'Master Repairman, Andys Repair',
@@ -88,9 +88,8 @@ clients:
 
 social:
 - {icon: 'twitter', link: 'http://twitter.com/kylepezant'}
-#- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'instagram', link: 'https://www.instagram.com/kpez_onesix/'}
 #- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
-#- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/kyle-pezant-40a24463'}
 - {icon: 'github', link: 'http://www.github.com/kpez16'}
 
