@@ -34,7 +34,7 @@ header
     background-color: rgba(255,255,255,0.9)
     box-shadow: 4px 0px 3px rgba(0,0,0,0.4)
     position: fixed
-    z-index: 1
+    z-index: 5
 
   .roles
     text-align: center
@@ -109,11 +109,25 @@ header
     color: rgba(0,0,0,0.7)
     line-height: 1
 
+@media (max-width: 768px)
+  header
+    .roles
+      margin: 23px 0px
+
+    .hero-showcase
+      width: 80%
+
+      img
+        max-width: 300px
+
 @media (max-width: 640px)
   header
     background:
       position: bottom center
     
+    h1.headline
+      padding-top: 70px
+
     .headline-lockup
       margin-top: 75px
 
@@ -139,3 +153,8 @@ header
 
   .roles
     display: none
+
+  .headline-copy
+
+    p
+      margin: 20px 0px 20px 0px
