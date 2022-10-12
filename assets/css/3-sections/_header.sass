@@ -1,7 +1,7 @@
 header
   position: relative
   width: 100%
-  height: 475px
+  height: 600px
   overflow: hidden
   @extend %background-image
   background:
@@ -9,6 +9,13 @@ header
     size: cover
     position: center center
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  
+  h2
+    margin-top: 100px
+    margin-bottom: 0px
+    background: -webkit-linear-gradient(83deg, #00B2A3 0%, #FF89F7 100%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
 
   .logo
     +size(55px)
@@ -24,9 +31,20 @@ header
   .nav-bar
     height: 75px
     width: 100%
-    background-color: rgba(255,255,255,0.5)
+    background-color: rgba(255,255,255,0.9)
+    box-shadow: 4px 0px 3px rgba(0,0,0,0.4)
     position: fixed
-    z-index: 5
+    z-index: 1
+
+  .roles
+    text-align: center
+    float: left
+    margin: 25px 0 0 33%
+    line-height: 25px
+
+    p
+      margin: 0
+      padding: 5px
     
   nav
     float: right
@@ -43,24 +61,50 @@ header
         color: rgba(0,0,0,1)
     
   .headline-lockup
-    position: absolute
-    width: 100%
-    margin-top: 50px
+    width: 80%
+    margin: 50px auto 0px
+    display: flex
+    justify-content: space-between
     
+
+  .headline-copy
+    width: 50%
+
+    h1
+      strong
+        background: -webkit-linear-gradient(83deg, #00B2A3 0%, #FF89F7 100%)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+
+
+
+  .hero-showcase
+    background-image: url("../img/CottonCandy.png")
+    height: 600px
+    background-size: cover
+    width: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+
+    img
+      max-width: 500px
+
   h1.headline
-    text-align: center
+    text-align: left
     font:
-      weight: 700
-    color: rgba(0,0,0,0.7)
+      weight: 900
+    color: rgba(0,0,0,0.9)
     text-transform: uppercase
     letter-spacing: 0.05em
     clear: both
-    padding-top: 200px
+    padding-top: 100px
     margin: 0
     
   .kicker
     @extend %small-bold
-    text-align: center
+    text-align: left
     letter-spacing: 0.05em
     color: rgba(0,0,0,0.7)
     line-height: 1
@@ -92,3 +136,6 @@ header
       img
         width: 55px
         height: 55px
+
+  .roles
+    display: none

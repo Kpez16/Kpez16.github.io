@@ -6,6 +6,9 @@
             <img src="../assets/img/logo.svg" class="logo-img"> 
         </a>
       </div>
+      <div class="roles">
+        <p>UX Designer || Digital Illustrator || Front-End Dev</p>
+      </div>
       <nav>
         {% for item in site.data.settings.menu %}
           <a href="{{ item.url }}">{{ item.name }}</a>
@@ -14,8 +17,14 @@
     </div>
 
     <div class="headline-lockup">
-      <h1 class="headline">{{ site.data.settings.title }}</h1>
-      <p class="kicker">{{ site.data.settings.description }}</p>
+      <div class="headline-copy">
+        <h2>Kyle Pezant</h2>
+        <h1 class="headline">One of those <strong>creative</strong> types</h1>
+        <p class="kicker">{{ site.data.settings.description }}</p>
+      </div>
+      <div class="hero-showcase">
+        <img src="../assets/img/Tattuitive_NoShadow.png">
+      </div>
     </div>
 
 </header>

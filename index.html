@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="assets/css/all.css">
   
   <link rel="stylesheet" href="assets/css/jquery.modal.css" type="text/css" media="screen"/>
+
+  <link rel="stylesheet" href="https://use.typekit.net/kyj8ehe.css">
   
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -24,11 +26,14 @@
 <body>
 
 {% include header.html %}
-{% include about.html %}
-{% include work.html %}
-{% include clients.html %}
-{% include contact.html %}
-{% include form.html %}
+<div class="main-content">
+  {% include featured.html %}
+  {% include about.html %}
+  {% include work.html %}
+  {% include clients.html %}
+  {% include contact.html %}
+</div>
+<!--{% include form.html %}-->
 {% include footer.html %}
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

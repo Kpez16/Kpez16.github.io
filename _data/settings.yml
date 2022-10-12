@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 
-title: Kyle Pezant
-description:  Creative || Tech Lover || Problem Solver
-email: kpez16@gmail.com
+title: One of those creative types
+description: Designing solutions combined with aesthetic actualization...
+email: kyle@kpez.design
 
 
 menu:
@@ -45,14 +45,14 @@ blurb: >
 # Work Section
 
 projects:
-- {name: Sketch Work, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Andys Appliance Repair, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: PCI Knowledge Base Redesign, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Tattuitive App, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Ecomm App, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Logo Concepts, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Illustrations, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Contemporary Cabinets Concept, folder: 'proj-8', file: 'work/proj-8.html'}
+# - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
+# - {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
+# - {name: Illustrations, folder: 'proj-7', file: 'work/proj-7.html'}
+# - {name: Web Projects, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
 
@@ -87,9 +87,9 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/kylepezant'}
-- {icon: 'instagram', link: 'https://www.instagram.com/kpez_onesix/'}
-#- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+# - {icon: 'twitter', link: 'http://twitter.com/kylepezant'}
+- {icon: 'instagram', link: 'https://www.instagram.com/kpez/'}
+- {icon: 'behance', link: 'https://www.behance.net/kpez'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/kyle-pezant-40a24463'}
 - {icon: 'github', link: 'http://www.github.com/kpez16'}
 

@@ -1,5 +1,6 @@
 .section-work
   overflow-x: hidden
+  padding-bottom: 100px
 
 /* Hackey-type CSS as a jQuery Alternative for when the browser does not have jQuery enabled. */
 .noscript
@@ -37,7 +38,7 @@
 
 .thumb-container
   display: block
-  max-width: 960px
+  max-width: 90%
   margin: 0px auto
   +clearfix
 
@@ -61,7 +62,7 @@
       transform: translate(0px, -20px)
       box-shadow: 0px 5px 8px #888888
 
-    @media screen and (max-width: 760px)
+    @media screen and (max-width: 900px)
       width: 50%
 
     .thumb-overlay
@@ -122,6 +123,19 @@
 
     &:hover
       opacity: 1
+
+  .btm-return
+    +size(40px)
+    cursor: pointer
+    opacity: 0.5
+    +position(relative, 0px null null 45%)
+
+    path
+      fill: rgba(0,0,0,0.4)
+
+    &:hover
+      opacity: 1
+
 
 
 

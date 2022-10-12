@@ -41,21 +41,21 @@ function smoothScroll (duration) {
 
 //About color changing icons on hover over words
 
-/*$('.lfc').mouseover(function() {
-    $('.icon-soccer').css('background-color', 'red');
-});
+// $('.lfc').mouseover(function() {
+//     $('.icon-soccer').css('background-color', 'red');
+// });
 
-$('.oklahoma').mouseover(function() {
-    $('.icon-scissortail').css('background-color', 'green');
-});
+// $('.oklahoma').mouseover(function() {
+//     $('.icon-scissortail').css('background-color', 'green');
+// });
 
-$('.quick').mouseover(function() {
-    $('.icon-rocket').css('background-color', 'cadetblue');
-});
+// $('.quick').mouseover(function() {
+//     $('.icon-rocket').css('background-color', 'cadetblue');
+// });
 
-$('.thumbsUp').mouseover(function() {
-    $('.icon-thumb').css('background-color', 'coral');
-});*/
+// $('.thumbsUp').mouseover(function() {
+//     $('.icon-thumb').css('background-color', 'coral');
+// });
 
 //Floating Cards
 $(window).scroll(function(){
@@ -88,6 +88,13 @@ function workBelt() {
     $('.work-container').hide(800);
   });
 
+  $('.btm-return').click(function() {
+    $('.work-belt').removeClass("slided");
+    $('.work-container').hide(800);
+		document.querySelector('#work').scrollIntoView({
+		  behavior: 'smooth'
+		});
+  });
 }
 
 
@@ -100,7 +107,7 @@ function  workLoad() {
         newTitle = $this.find('strong').text(),
         newFolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = 'work/'+ newFolder;
+        newHTML = 'work/'+ newFolder + ".html";
 
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);

@@ -23,7 +23,7 @@
       {% endfor %}
     </div>
     </div>
-
+    
     <div class="work-wrap">
       <div class="work-container">
       <label for="return">
@@ -31,7 +31,10 @@
       </label>
       <h4 class="project-title"></h4>
       <div class="project-load"></div>
-
+      <label for="return">
+        <div class="btm-return">{% include icons/icon-back.html %}</div>
+      </label>
+      
       <noscript>
         {% for project in site.data.settings.projects %}
           <div class="noscript" id="content-{{ project.folder }}">
