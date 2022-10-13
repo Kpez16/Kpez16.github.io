@@ -70,7 +70,14 @@ header
   .headline-copy
     width: 50%
 
-    h1
+    h1.headline
+      font-size: 82px
+      line-height: .75em
+
+      span
+        font-weight: 100
+        font-size: 24px !important 
+
       strong
         background: -webkit-linear-gradient(83deg, #00B2A3 0%, #FF89F7 100%)
         -webkit-background-clip: text
@@ -95,7 +102,7 @@ header
     text-align: left
     font:
       weight: 900
-    color: rgba(0,0,0,0.9)
+    color: #464646
     text-transform: uppercase
     letter-spacing: 0.05em
     clear: both
@@ -108,9 +115,19 @@ header
     letter-spacing: 0.05em
     color: rgba(0,0,0,0.7)
     line-height: 1
+    margin-top: 2em
 
 @media (max-width: 768px)
   header
+
+    .headline-lockup
+      margin: none
+      width: 100%
+      padding-left: 2em
+
+    h1.headline
+      padding-top: 50px
+
     .roles
       margin: 23px 0px
 
@@ -127,6 +144,7 @@ header
     
     h1.headline
       padding-top: 70px
+      font-size: 42px !important
 
     .headline-lockup
       margin-top: 75px
