@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 
-title: One of those creative types
-description: Designing solutions while finding aesthetic actualization...
+title: UX Designer, Illustrator, Problem Solver
+description: Currently a UX/Product designer at PCI Energy Solutions. Developing a user focused suite of tools through design research.
 email: kyle@kpez.design
 
 
@@ -18,7 +18,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Web design, web based applications, illustrations, and front-end developer.'
+  description: 'UX Design, UX Research, UI Design, User Experience Design, Designer, Illustrator, Web design, web based applications, illustrations, front-end developer, front-end'
   rel-author: 'Kyle Pezant'
   rel-publisher: 'Github Pages'
 
@@ -47,8 +47,8 @@ blurb: >
 projects:
 - {name: PCI Knowledge Base Redesign, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: Tattuitive App, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Ecomm App, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Logo Concepts, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Illustrations, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Logos & Branding, folder: 'proj-4', file: 'work/proj-4.html'}
 # - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
 # - {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
 # - {name: Illustrations, folder: 'proj-7', file: 'work/proj-7.html'}

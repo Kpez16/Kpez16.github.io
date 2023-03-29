@@ -87,10 +87,15 @@ body
 /* Basic Styles
   ------------------------------------	*/
 body
-  background: $documentBackgroundColor
-  font-size: 14px
+  // background: $documentBackgroundColor
+  background:
+    attachment: fixed
+    size: cover
+    position: center center
+    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  font-size: 18px
   line-height: 1.6
-  font-family: 'Open Sans' sans-serif
+  font-family: 'Articulat-CF' light
   color: $textColor
   margin-bottom: 250px
   -webkit-font-smoothing: antialiased
@@ -116,7 +121,8 @@ fieldset
 .main-content
   background-color: white
   border-radius: 16px
-  width: 90%
+  width: 85%
+  max-width: 1250px
   box-shadow: 0px 0px 4px rgba(0, 0, 0, .3) inset
   margin: auto
 

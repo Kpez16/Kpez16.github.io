@@ -39,24 +39,6 @@ function smoothScroll (duration) {
 	});
 }
 
-//About color changing icons on hover over words
-
-// $('.lfc').mouseover(function() {
-//     $('.icon-soccer').css('background-color', 'red');
-// });
-
-// $('.oklahoma').mouseover(function() {
-//     $('.icon-scissortail').css('background-color', 'green');
-// });
-
-// $('.quick').mouseover(function() {
-//     $('.icon-rocket').css('background-color', 'cadetblue');
-// });
-
-// $('.thumbsUp').mouseover(function() {
-//     $('.icon-thumb').css('background-color', 'coral');
-// });
-
 //Floating Cards
 $(window).scroll(function(){
 
@@ -115,7 +97,16 @@ function  workLoad() {
 
 }
 
+function featureLoad1() {
+	$.ajaxSetup({ cache: true});
 
+	$('.featured_ux').click(function() {
+		$('.project-load').html(spinner).load('work/proj-2.html');
+		$('.project-title').text('Tattuitive App')
+		$('.work-belt').addClass("slided");
+		$('.work-container').show();
+		  });
+	}
 
 
 function clientStuff() {

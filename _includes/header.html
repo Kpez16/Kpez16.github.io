@@ -15,16 +15,23 @@
         {% endfor %}
       </nav>
     </div>
-
     <div class="headline-lockup">
-      <div class="headline-copy">
-        <h2>Kyle Pezant</h2>
-        <h1 class="headline">One of <span>those</span> <strong>creative</strong> types</h1>
-        <p class="kicker">{{ site.data.settings.description }}</p>
+      <div class="headline-main">
+        <div class="headline-copy">
+          <h2>Kyle Pezant</h2>
+          <p class="kicker">{{ site.data.settings.description }}</p>
+          <a href="../assets/img/KPResume.pdf" download><button>Download Resume</button></a>
+          <a href="#work"><button>Projects</button></a>
+        </div>
+        <div class="hero-showcase">
+          <img src="../assets/img/Tattuitive_NoShadow.png">
+        </div>
       </div>
-      <div class="hero-showcase">
-        <img src="../assets/img/Tattuitive_NoShadow.png">
+      <div id="see-more">
+        <a href="#featured">See more</a>
+        <img src="../assets/img/Icons/caret_down.png">
       </div>
     </div>
+    
 
 </header>
