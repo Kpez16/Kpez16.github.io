@@ -2,13 +2,14 @@
 # General Site Settings
 
 title: UX Designer, Illustrator, Problem Solver
-description: Currently a UX/Product designer at PCI Energy Solutions. Developing a user focused suite of tools through design research.
+description: Currently working as a <strong>UX/Product Designer</strong> at PCI Energy Solutions. Here I focus my time researching users and designing a user focused suite of tools as well as creating and implementing a company wide Style Guide and documentation.
 email: kyle@kpez.design
 
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
+- {name: UX, url: '#work'}
+- {name: Illustrations, url: '#work'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
@@ -18,7 +19,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'UX Design, UX Research, UI Design, User Experience Design, Designer, Illustrator, Web design, web based applications, illustrations, front-end developer, front-end'
+  description: 'UX Design, UX Research, UI Design, User Experience Design, Designer, Illustrator, Web design, web based applications, illustrations, front-end developer, front-end, SaaS, Enterprise UX, digital illustration, Project Management, wireframing, prototyping'
   rel-author: 'Kyle Pezant'
   rel-publisher: 'Github Pages'
 
@@ -37,8 +38,7 @@ seo:
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: >
-  **Kyle Pezant** is a tech loving creative type with a non-conformist attitude. He is passionate about learning and creating. He enjoys being the biggest Liverpool FC fan in Oklahoma and has an uncanny ability to learn things very quickly.
+blurb:
 
 
 #-------------------------------
