@@ -35,6 +35,7 @@
     
     img
         align-self: center
+        width: 50%
 
     hr
         width: 20%
@@ -82,49 +83,82 @@
         padding-right: 2em
         border-right: 2px solid black
 
-@media (max-width: 768px)
+@media (max-width: 1200px)
     .featured1
-        background-size: contain
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(4, 123, 159, .25), rgba(4, 123, 159, 1), rgba(4, 123, 159, 1))
+        flex-direction: column
+        height: 100%
+        border-radius: 25px
 
         img
-            width: 50%
+            width: 70%
 
-        p
-            width: 45%
+        div
+            height: 100%
+            margin-bottom: 1em
+            border: none
+            padding: 1em
 
     .featured2
-        background-size: contain
-
-        img
-            width: 50%
-
-        p
-            width: 100%
-            margin-right: 5px
-
-@media (max-width: 450px)
-    .featured1
-        background-color: #047B9F
-        height: 600px
-        border-radius: 64px
-        display: block
-
-        img
-            width: 100%
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(215, 242, 109, .25), rgba(215, 242, 109, 1), rgba(215, 242, 109, 1))
+        flex-direction: column-reverse
+        border-radius: 25px
+        height: 100%
 
         p
-            width: 90%
-            margin: 2em auto
+            width: 75%
+            margin-bottom: 1em
+            border: none
 
-    .featured2
-        background-color: #D7F26D
-        height: 600px
-        border-radius: 64px
-        display: block
+        hr
+            width: 25%
 
         img
-            width: 100%
+            width: 60%
 
-        p
-            width: 90%
-            margin: 2em auto
+// @media (max-width: 768px)
+//     .featured1
+//         background-size: contain
+
+//         img
+//             width: 50%
+
+//         p
+//             width: 45%
+
+//     .featured2
+//         background-size: contain
+
+//         img
+//             width: 50%
+
+//         p
+//             width: 100%
+//             margin-right: 5px
+
+// @media (max-width: 450px)
+//     .featured1
+//         background-color: #047B9F
+//         height: 600px
+//         border-radius: 64px
+//         display: block
+
+//         img
+//             width: 100%
+
+//         p
+//             width: 90%
+//             margin: 2em auto
+
+//     .featured2
+//         background-color: #D7F26D
+//         height: 600px
+//         border-radius: 64px
+//         display: block
+
+//         img
+//             width: 100%
+
+//         p
+//             width: 90%
+//             margin: 2em auto
