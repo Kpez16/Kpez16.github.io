@@ -24,21 +24,21 @@
   {% include analytics.html %}
 </head>
 <body>
-
-{% include header.html %}
-<div class="main-content">
-  {% include featured.html %}
-  {% include work.html %}
-  {% include about.html %}
-  {% include clients.html %}
-  {% include contact.html %}
-</div>
-<!--{% include form.html %}-->
-{% include footer.html %}
-
+  <div class="background-image">
+    {% include header.html %}
+    <div class="main-content">
+      {% include featured.html %}
+      {% include work.html %}
+      {% include about.html %}
+      {% include clients.html %}
+      {% include contact.html %}
+    </div>
+    <!--{% include form.html %}-->
+    {% include footer.html %}
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="assets/js/functions.js"></script>
 <!--Jquery modal -->
 <script src="assets/js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+  </div>
 </body>
 </html>

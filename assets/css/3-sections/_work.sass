@@ -92,15 +92,18 @@
       .thumb-overlay
         @extend %#{$animation}
 
-
+//CSS for loaded work container and loaded HTML
 .work-container
-  max-width: 80%
   margin: 0px auto
-  padding: 0 15px
+  padding: 0 2em
   +box-sizing(border-box)
 
   position: relative
   display: none
+
+  .project-load
+    display: flex
+    flex-flow: column
 
   h4, noscript h4
     color: $accent
@@ -112,7 +115,7 @@
     text-align: center
 
   img
-    width: 40%
+    width: 60%
     display: block
     margin: auto
 
