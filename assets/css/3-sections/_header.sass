@@ -4,8 +4,7 @@ header
   overflow: hidden
   
   h2
-    margin-top: 100px
-    margin-bottom: 0px
+    margin: .5em 0 0 0
     font-size: 4em
     background: -webkit-linear-gradient(83deg, #00B2A3 0%, #FF89F7 100%)
     -webkit-background-clip: text
@@ -134,22 +133,22 @@ header
 @media (max-width: 900px)
   header
     .logo
-      margin: 20px auto
-      float: none
+      margin: 1em
       
       img
         width: 55px
         height: 55px
 
     .nav-bar
-      height: 150px
+      height: 5em
       background-color: white
       display: block
     
     nav
       float: none
-      text-align: center
-      padding-top: 5px
+      text-align: right
+      padding-top: 2em
+      padding-right: 1em
 
     h1
       padding-top: 0px
@@ -196,10 +195,20 @@ header
       display: none
 
     .headline-copy
-      width: 80%
+      width: 90%
       p
         margin: 20px 0px 20px 0px
+        line-height: 1.2
 
+@media (max-width: 475px)
+  header
+    .logo
+      margin: 1em 0 1em .5em
+
+    nav
+      padding-right: .5em
+      a
+        margin-left: 10px
 
 
 //Slider Sass

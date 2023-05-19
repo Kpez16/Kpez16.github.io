@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 
-title: UX Designer, Illustrator, Problem Solver
-description: Currently working as a <strong>UX/Product Designer</strong> at PCI Energy Solutions. Here I focus my time researching users and designing a user focused suite of tools as well as creating and implementing a company wide Style Guide and documentation.
+title: Kyle Pezant | Designer
+description: Currently working as a <strong>UX/Product Designer</strong> at PCI Energy Solutions. Here I focus my time researching users and designing a user focused suite of tools as well as creating and implementing a company wide <strong>Design System</strong> and documentation.
 email: kyle@kpez.design
 
 
@@ -45,16 +45,20 @@ blurb:
 # Work Section
 
 projects:
-- {name: PCI Knowledge Base Redesign, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Tattuitive App, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Illustrations, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Logos & Branding, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: PCI Energy Solutions, folder: 'proj-1', file: 'work/proj-1.html', description: 'Multiple SaaS based energy applications, User Research, and Design Systems'}
+- {name: Tattuitive App, folder: 'proj-2', file: 'work/proj-2.html', description: 'Conceptual mobile app designed to help users avoid tattoo regret'}
+- {name: Snow Crash The Game, folder: 'proj-3', file: 'work/proj-3.html', description: 'User Experience & UI Design System for conceptual game design'}
+- {name: UDisc Research/Enhancements, folder: 'proj-4', file: 'work/proj-4.html', description: 'User Experience Research & UI Redesign for  the most popular disc golf app, UDisc'}
 # - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
 # - {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
 # - {name: Illustrations, folder: 'proj-7', file: 'work/proj-7.html'}
 # - {name: Web Projects, folder: 'proj-8', file: 'work/proj-8.html'}
 
+#--------------------------------
+# Creative Section
 
+artworks:
+- {name: , folder: ''}
 
 
 #-------------------------------
