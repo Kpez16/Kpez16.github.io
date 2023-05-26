@@ -97,16 +97,6 @@ function  workLoad() {
 
 }
 
-function featureLoad1() {
-	$.ajaxSetup({ cache: true});
-
-	$('.featured_ux').click(function() {
-		$('.project-load').html(spinner).load('work/proj-2.html');
-		$('.project-title').text('Tattuitive App')
-		$('.work-belt').addClass("slided");
-		$('.work-container').show();
-		  });
-	}
 
 
 function clientStuff() {

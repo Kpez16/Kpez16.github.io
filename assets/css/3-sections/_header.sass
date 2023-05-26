@@ -3,12 +3,85 @@ header
   width: 100%
   overflow: hidden
   
-  h2
-    margin: .5em 0 0 0
-    font-size: 4em
-    background: -webkit-linear-gradient(83deg, #00B2A3 0%, #FF89F7 100%)
-    -webkit-background-clip: text
-    -webkit-text-fill-color: transparent
+  // h2
+  //   margin: .5em 0 0 0
+  //   font-size: 4em
+  //   background: -webkit-linear-gradient(83deg, #00B2A3 0%, #FF89F7 100%)
+  //   -webkit-background-clip: text
+  //   -webkit-text-fill-color: transparent
+
+  //Test H2
+  // UPDATE: less lines of code
+
+  *,
+  *::before,
+  *::after 
+    box-sizing: border-box
+
+
+    --color-primary: #5ad9ff
+    --color-secondary: #00a5bb
+    --color-tertiary: #e27df0
+    --color-quaternary: #b63fb0
+    --color-quinary: #ee6352
+
+  .content
+    display: flex
+    align-content: center
+    justify-content: center
+    flex-direction: column
+
+  .text-shadows
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary)
+    font-family: bungee, sans-serif
+    font-weight: 400
+    text-transform: uppercase
+    font-size: calc(2rem + 5vw)
+    text-align: left
+    margin: 0
+    color: var(--color-primary)
+    animation: shadows 1.2s ease-in infinite
+    letter-spacing: 0.4rem
+
+  @keyframes shadows 
+    0% 
+      text-shadow: none
+    
+    10% 
+      transform: translate(-3px, -3px)
+      text-shadow: 3px 3px 0 var(--color-secondary)
+    
+    20% 
+      transform: translate(-6px, -6px)
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary)
+    
+    30% 
+      transform: translate(-9px, -9px)
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary)
+    
+    40%
+      transform: translate(-12px, -12px)
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary)
+    
+    50% 
+      transform: translate(-12px, -12px)
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary)
+    
+    60% 
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary)
+
+    70% 
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary)
+    
+    80% 
+      text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary)
+    
+    90% 
+      text-shadow: 3px 3px 0 var(--color-secondary)
+    
+    100% 
+      text-shadow: none
+  //End of test H2
 
   .logo
     +size(55px)
@@ -55,16 +128,17 @@ header
         color: rgba(0,0,0,1)
     
   .headline-lockup
-    height: 90vh
+    height: 75vh
     width: 100%
     max-width: 1470px
     margin: 100px auto
   
   .headline-main
     width: 80%
-    margin: 50px auto 0px
+    margin: 5em auto 0px
     display: flex
-    justify-content: space-evenly
+    justify-content: space-around
+    align-items: center
     background: radial-gradient(white, transparent)
     
 
@@ -113,9 +187,9 @@ header
     text-align: left
     letter-spacing: 0.05em
     color: rgba(0,0,0,0.7)
-    line-height: 1
+    line-height: 1.2
     margin-top: 2em
-    font-size: 26px
+    font-size: 1.2em
     font-weight: 400
     text-transform: none
 
@@ -384,4 +458,3 @@ $nb-slides: 5
   a 
     color: white
     text-decoration: underline
-  
