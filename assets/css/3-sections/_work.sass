@@ -37,9 +37,9 @@
   float: left
 
 .thumb-container
-  display: block
-  max-width: 90%
-  margin: 0px auto
+  display: flex
+  flex-wrap: wrap
+  padding: 0px 1.5em
   +clearfix
 
   hr
@@ -124,10 +124,11 @@
     margin: auto
 
   .work-return
-    +size(40px)
+    height: 32px
+    width: 100%
     cursor: pointer
     opacity: 0.5
-    +position(fixed, null 0 0 null)
+    // +position(fixed, null 0 0 null)
     z-index: 10
 
     path
@@ -137,10 +138,12 @@
       opacity: 1
 
   .btm-return
-    +size(40px)
+    height: 32px
+    width: 100%
     cursor: pointer
     opacity: 0.5
-    +position(relative, 0px null null 45%)
+    // +position(fixed, null 0 0 null)
+    z-index: 10
 
     path
       fill: rgba(0,0,0,0.4)

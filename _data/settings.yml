@@ -7,10 +7,10 @@ email: kyle@kpez.design
 
 
 menu:
-- {name: About, url: '#about-me'}
 - {name: UX, url: '#work'}
 - {name: Creative, url: '#creative'}
-- {name: Clients, url: '#clients'}
+- {name: About, url: '#about-me'}
+- {name: Process, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------

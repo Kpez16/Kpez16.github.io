@@ -1,23 +1,26 @@
-<footer id="footer" class="hidden">
+<footer id="footer" >
 
-  <div class="lockup">
+  <div class="center-footer">
+    <div class="lockup">
 
-    <div class="content-wrap">
-      <nav>
-        {% for item in site.data.settings.menu %}
-          <a href="{{ item.url }}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
+      <div class="content-wrap">
+        <nav>
+          {% for item in site.data.settings.menu %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          {% endfor %}
+        </nav>
 
-      <p class="copyright">All content copyright {{ site.time | date: '%Y' }}</p>
+        <p class="copyright">All content copyright {{ site.time | date: '%Y' }}</p>
+      </div>
+
+    </div>
+                
+    <div class="me-bottom">
+    
+        <img src="../assets/img/kyle.png" class="me-pic">
+    
     </div>
 
-  </div>
-              
-  <div class="me-bottom">
-  
-      <img src="../assets/img/kyle.png" class="me-pic">
-  
   </div>
 
 </footer>

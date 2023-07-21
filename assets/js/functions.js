@@ -7,13 +7,25 @@ $(window).scroll(function(){
   if (wScroll <= pContainerHeight) {
 
     $('.headline-lockup').css({
-      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
-    });
-  }
+      'transform' : 'translate(0px, '+ wScroll/2 +'px)'
+    	});
+	}
+
+	else if (wScroll >= ($(document).height() - $(window).height())*0.95) {
+
+		$('#footer').addClass("show");
+
+	}
+
+	else if (wScroll <= ($(document).height() - $(window).height())*0.95) {
+
+		$('#footer').removeClass("show");
+		
+	}
 });
 
 $(function() {
-	smoothScroll(800);
+	smoothScroll(1200);
 	workBelt();
 	workLoad();
 	clientStuff();
@@ -42,17 +54,17 @@ function smoothScroll (duration) {
 //Floating Cards
 $(window).scroll(function(){
 
- var wScroll = $(this).scrollTop();
+	var wScroll = $(this).scrollTop();
 
- if(wScroll > $('.cards').offset().top - $(window).height()){
+	if(wScroll > $('.cards').offset().top - $(window).height()){
 
-    var offset = (Math.min(0, wScroll - $('.cards').offset().top +$(window).height() - 350)).toFixed();
+		var offset = (Math.min(0, wScroll - $('.cards').offset().top +$(window).height() - 350)).toFixed();
 
-    $('.card-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
+		$('.card-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
-    $('.card-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
+		$('.card-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
-  }
+	}
 });
 
 function workBelt() {
