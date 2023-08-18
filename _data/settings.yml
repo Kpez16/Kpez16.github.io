@@ -45,8 +45,8 @@ blurb:
 # Work Section
 
 projects:
-- {name: PCI Energy Solutions, folder: 'proj-1', file: 'work/proj-1.html', description: 'Multiple SaaS based energy applications, User Research, and Design Systems'}
-- {name: Tattuitive App, folder: 'proj-2', file: 'work/proj-2.html', description: 'Conceptual mobile app designed to help users avoid tattoo regret'}
+- {name: PCI Energy Solutions - Knowledge Base Re-Design, folder: 'proj-1', file: 'work/proj-1.html', description: 'Multiple SaaS based energy applications, User Research, and Design Systems'}
+- {name: PCI Energy Solutions - ETRM Tag Availability, folder: 'proj-2', file: 'work/proj-2.html', description: 'Conceptual mobile app designed to help users avoid tattoo regret'}
 - {name: Snow Crash The Game, folder: 'proj-3', file: 'work/proj-3.html', description: 'User Experience & UI Design System for conceptual game design'}
 - {name: UDisc Research/Enhancements, folder: 'proj-4', file: 'work/proj-4.html', description: 'User Experience Research & UI Redesign for  the most popular disc golf app, UDisc'}
 # - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
