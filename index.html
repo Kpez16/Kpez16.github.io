@@ -2,52 +2,74 @@
 ---
 
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.data.settings.seo.description }}">
-  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
-  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="{{ site.data.settings.seo.description }}"
+    />
+    <meta rel="author" href="{{ site.data.settings.seo.rel-author }}" />
+    <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}" />
 
-  <title>{{ site.data.settings.title }}</title>
+    <title>{{ site.data.settings.title }}</title>
 
-  <link rel="stylesheet" href="assets/css/all.css">
-  
-  <link rel="stylesheet" href="assets/css/jquery.modal.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="assets/css/all.css" />
 
-  <link rel="stylesheet" href="https://use.typekit.net/kyj8ehe.css">
+    <link
+      rel="stylesheet"
+      href="assets/css/jquery.modal.css"
+      type="text/css"
+      media="screen"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kyj8ehe.css" />
 
-  <!--Featherlight Lightbox Solution-->
-  <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-  
-  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+    />
 
-  {% include analytics.html %}
-</head>
-<body>
-  <div class="background-image">
-    {% include header.html %}
-    <div class="main-content">
-      {% include featured.html %}
-      {% include work.html %}
-      {% include creative.html %}
-      {% include about.html %}
-      {% include clients.html %}
-      {% include contact.html %}
+    <!--Featherlight Lightbox Solution-->
+    <link
+      href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <!--[if lt IE 9
+      ]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script
+    ><![endif]-->
+
+    {% include analytics.html %}
+  </head>
+  <body>
+    <div class="background-image">
+      {% include header.html %}
+      <div class="main-content">
+        {% include featured.html %} {% include work.html %} {% include
+        creative.html %} {% include about.html %} {% include clients.html %} {%
+        include contact.html %}
+      </div>
+      <!--{% include form.html %}-->
+      {% include footer.html %}
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+      <script src="//code.jquery.com/jquery-latest.js"></script>
+      <script
+        src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js"
+        type="text/javascript"
+        charset="utf-8"
+      ></script>
+      <script src="assets/js/functions.js"></script>
+      <!--Jquery modal -->
+      <script
+        src="assets/js/jquery.modal.js"
+        type="text/javascript"
+        charset="utf-8"
+      ></script>
     </div>
-    <!--{% include form.html %}-->
-    {% include footer.html %}
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="assets/js/functions.js"></script>
-<!--Jquery modal -->
-<script src="assets/js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
-  </div>
-</body>
+  </body>
 </html>

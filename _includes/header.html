@@ -1,19 +1,21 @@
 <header id="header">
     
     <div class="nav-bar">
-      <div class="logo">
-        <a href="#header">
-            <img src="../assets/img/logo.svg" class="logo-img"> 
-        </a>
+      <div class="nav-bar-content">
+        <div class="logo">
+          <a href="#header">
+              <img src="../assets/img/logo.svg" class="logo-img"> 
+          </a>
+        </div>
+        <div class="roles">
+          <p>UX Designer || Digital Illustrator || Front-End Dev</p>
+        </div>
+        <nav>
+          {% for item in site.data.settings.menu %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          {% endfor %}
+        </nav>
       </div>
-      <div class="roles">
-        <p>UX Designer || Digital Illustrator || Front-End Dev</p>
-      </div>
-      <nav>
-        {% for item in site.data.settings.menu %}
-          <a href="{{ item.url }}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
     </div>
     <div class="headline-lockup">
       <div class="headline-main">
@@ -26,7 +28,6 @@
           <!--Test H2-->
           <p class="kicker">{{ site.data.settings.description }}</p>
           <a href="../assets/img/KPResume.pdf" download><button>Download Resume</button></a>
-          <a href="#contact"><button>Hire Me!</button></a>
         </div>
         <div class="hero-showcase">
           <!-- <img src="../assets/img/work/proj-3/BigFootDG-Mellow.png"> -->
