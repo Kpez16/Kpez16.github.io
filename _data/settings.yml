@@ -1,3 +1,4 @@
+---
 #-------------------------------
 # General Site Settings
 
@@ -5,13 +6,11 @@ title: Kyle Pezant | Designer
 description: Currently working as a <strong>UX/Product Designer</strong> at PCI Energy Solutions. Here I focus my time researching users and designing a user focused suite of tools as well as creating and implementing a company wide <strong>Design System</strong> and documentation.
 email: kyle@kpez.design
 
-
 menu:
-- {name: UX, url: '#work'}
-- {name: Creative, url: '#creative'}
-- {name: About, url: '#about-me'}
-- {name: Process, url: '#clients'}
-- {name: Contact, url: '#contact'}
+  - { name: UX, url: "#work" }
+  - { name: Creative, url: "#creative" }
+  - { name: About, url: "#about-me" }
+  - { name: Contact, url: "#contact" }
 
 #-------------------------------
 # SEO Section
@@ -19,9 +18,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'UX Design, UX Research, UI Design, User Experience Design, Designer, Illustrator, Web design, web based applications, illustrations, front-end developer, front-end, SaaS, Enterprise UX, digital illustration, Project Management, wireframing, prototyping'
-  rel-author: 'Kyle Pezant'
-  rel-publisher: 'Github Pages'
+  description: "UX Design, UX Research, UI Design, User Experience Design, Designer, Illustrator, Web design, web based applications, illustrations, front-end developer, front-end, SaaS, Enterprise UX, digital illustration, Project Management, wireframing, prototyping"
+  rel-author: "Kyle Pezant"
+  rel-publisher: "Github Pages"
 
 #-------------------------------
 # Google Analytics Section
@@ -40,15 +39,34 @@ seo:
 
 blurb:
 
-
 #-------------------------------
 # Work Section
 
 projects:
-- {name: PCI Energy Solutions - Knowledge Base Re-Design, folder: 'proj-1', file: 'work/proj-1.html', description: 'Multiple SaaS based energy applications, User Research, and Design Systems'}
-- {name: PCI Energy Solutions - ETRM Tag Availability, folder: 'proj-2', file: 'work/proj-2.html', description: 'Conceptual mobile app designed to help users avoid tattoo regret'}
-- {name: Snow Crash The Game, folder: 'proj-3', file: 'work/proj-3.html', description: 'User Experience & UI Design System for conceptual game design'}
-- {name: UDisc Research/Enhancements, folder: 'proj-4', file: 'work/proj-4.html', description: 'User Experience Research & UI Redesign for  the most popular disc golf app, UDisc'}
+  - {
+      name: PCI Energy Solutions - Knowledge Base Re-Design,
+      folder: "proj-1",
+      file: "work/proj-1.html",
+      description: "Multiple SaaS based energy applications, User Research, and Design Systems",
+    }
+  - {
+      name: PCI Energy Solutions - ETRM Tag Availability,
+      folder: "proj-2",
+      file: "work/proj-2.html",
+      description: "Conceptual mobile app designed to help users avoid tattoo regret",
+    }
+  - {
+      name: Snow Crash The Game,
+      folder: "proj-3",
+      file: "work/proj-3.html",
+      description: "User Experience & UI Design System for conceptual game design",
+    }
+  - {
+      name: UDisc Research/Enhancements,
+      folder: "proj-4",
+      file: "work/proj-4.html",
+      description: "User Experience Research & UI Redesign for  the most popular disc golf app, UDisc",
+    }
 # - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
 # - {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}
 # - {name: Illustrations, folder: 'proj-7', file: 'work/proj-7.html'}
@@ -58,44 +76,47 @@ projects:
 # Creative Section
 
 artworks:
-- {name: , folder: ''}
-
+  - { name, folder: "" }
 
 #-------------------------------
 # Clients Section
 
 clients:
-#- {avatar: 'Julia.jpg',
+  #- {avatar: 'Julia.jpg',
   #name: 'Julia Pezant',
   #title: 'Professional Photographer, Julia Pezant Photography',
   #quote: '<p><strong>Super pro, </strong>Kyle shows a passion in his work. He loves what he does and it is noticeable to anyone.</p>',
   #logo: 'JPlogo.png'}
-- {avatar: 'Andy.jpg',
-  name: 'Andy Estrada',
-  title: 'Master Repairman, Andys Repair',
-  quote: '<p>Kyle does excellent work with a lot of <strong>attention to detail</strong>. I frequently get compliments from customers on the quality of my business cards, and I could not be more pleased with the results.</p>',
-  logo: 'AndyLogo.png'}
-- {avatar: 'Akash.jpg',
-  name: 'Akash Patel',
-  title: 'Non-Profit Founder, World Experiences Foundation',
-  quote: '<p><strong></strong></p>',
-  logo: 'WEF-02.png'}
+  - {
+      avatar: "Andy.jpg",
+      name: "Andy Estrada",
+      title: "Master Repairman, Andys Repair",
+      quote: "<p>Kyle does excellent work with a lot of <strong>attention to detail</strong>. I frequently get compliments from customers on the quality of my business cards, and I could not be more pleased with the results.</p>",
+      logo: "AndyLogo.png",
+    }
+  - {
+      avatar: "Akash.jpg",
+      name: "Akash Patel",
+      title: "Non-Profit Founder, World Experiences Foundation",
+      quote: "<p><strong></strong></p>",
+      logo: "WEF-02.png",
+    }
 #- {avatar: 'face-teleject.jpg',
-  #name: 'Cleatus Cassidy',
-  #title: 'VP of Helmut, Lorem Sorem LLC.',
- # quote: '<p><strong>Back in old country</strong> Another blah blah quote from fake sir.</p>',
-  #logo: 'logo4.png'}
-
+#name: 'Cleatus Cassidy',
+#title: 'VP of Helmut, Lorem Sorem LLC.',
+# quote: '<p><strong>Back in old country</strong> Another blah blah quote from fake sir.</p>',
+#logo: 'logo4.png'}
 
 #-------------------------------
 # Contact Section
 
 social:
-# - {icon: 'twitter', link: 'http://twitter.com/kylepezant'}
-- {icon: 'instagram', link: 'https://www.instagram.com/kpez16/'}
-- {icon: 'behance', link: 'https://www.behance.net/kpez'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/kyle-pezant-40a24463'}
-- {icon: 'github', link: 'http://www.github.com/kpez16'}
-
-
+  # - {icon: 'twitter', link: 'http://twitter.com/kylepezant'}
+  - { icon: "instagram", link: "https://www.instagram.com/kpez16/" }
+  - { icon: "behance", link: "https://www.behance.net/kpez" }
+  - {
+      icon: "linkedin",
+      link: "https://www.linkedin.com/in/kyle-pezant-40a24463",
+    }
+  - { icon: "github", link: "http://www.github.com/kpez16" }
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
