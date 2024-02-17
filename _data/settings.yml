@@ -3,11 +3,11 @@
 # General Site Settings
 
 title: Kyle Pezant | Designer
-description: Currently working as a <strong>UX/Product Designer</strong> at PCI Energy Solutions. Here I focus my time researching users and designing a user focused suite of tools as well as creating and implementing a company wide <strong>Design System</strong> and documentation.
+description: Currently working as an in-house <strong>UX/Product Designer</strong> at <i>PCI Energy Solutions</i>. Here I focus my time researching users and designing a user focused suite of applications.
 email: kyle@kpez.design
 
 menu:
-  - { name: UX, url: "#work" }
+  - { name: Case Studies, url: "#work" }
   - { name: Creative, url: "#creative" }
   - { name: About, url: "#about-me" }
   - { name: Contact, url: "#contact" }
@@ -44,28 +44,28 @@ blurb:
 
 projects:
   - {
-      name: PCI Energy Solutions - Knowledge Base Re-Design,
+      name: PCI Energy Solutions - KUBE UI Design System,
       folder: "proj-1",
       file: "work/proj-1.html",
-      description: "Multiple SaaS based energy applications, User Research, and Design Systems",
+      description: "Living Design Systen supporting multiple cloud based applications",
     }
   - {
       name: PCI Energy Solutions - ETRM Tag Availability,
       folder: "proj-2",
       file: "work/proj-2.html",
-      description: "Conceptual mobile app designed to help users avoid tattoo regret",
+      description: "User Experience & UI Design for an eTag to Trade workflow application",
     }
   - {
-      name: Snow Crash The Game,
+      name: PCI Energy Solutions - Schedule Formulator,
       folder: "proj-3",
       file: "work/proj-3.html",
-      description: "User Experience & UI Design System for conceptual game design",
+      description: "User Experience & UI Design for a Configuration Management tool.",
     }
   - {
-      name: UDisc Research/Enhancements,
+      name: COMING SOON,
       folder: "proj-4",
       file: "work/proj-4.html",
-      description: "User Experience Research & UI Redesign for  the most popular disc golf app, UDisc",
+      description: "User Experience Research & UI for a conceptual Pixel Art game",
     }
 # - {name: Print-Campus Lodge, folder: 'proj-5', file: 'work/proj-5.html'}
 # - {name: World Experiences Foundation, folder: 'proj-6', file: 'work/proj-6.html'}

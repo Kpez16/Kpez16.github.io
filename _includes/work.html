@@ -2,66 +2,64 @@
   <a class="anchor" id="work"></a>
   <h3>UX Work</h3>
   {% for project in site.data.settings.projects %}
-    <input type="radio" name="trigger" class="trigger" id="{{ project.folder }}" />
+  <input
+    type="radio"
+    name="trigger"
+    class="trigger"
+    id="{{ project.folder }}"
+  />
   {% endfor %}
 
   <input type="radio" name="trigger" id="return" class="return" />
 
   <div class="work-belt">
-    
-
     <div class="thumb-wrap">
       <div class="thumb-container">
-      {% for project in site.data.settings.projects %}
-      <label for="{{ project.folder }}">
-        <div class="thumb-unit" data-folder="{{ project.folder }}">
-          <img src="assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
-        </div>
-        <div class="thumb-overlay">
-          <strong>{{ project.name }}</strong>
-        </div>
-        <h4>{{ project.name }}</h4>
-        <p>{{ project.description }}</p>
-        <hr>
-      </label>
-      {% endfor %}
+        {% for project in site.data.settings.projects %}
+        <a href="#work">
+          <label for="{{ project.folder }}">
+            <div class="thumb-unit" data-folder="{{ project.folder }}">
+              <img
+                src="assets/img/work/{{project.folder}}/thumb.jpg"
+                alt="{{ project.name }}"
+              />
+            </div>
+            <div class="thumb-overlay">
+              <strong>{{ project.name }}</strong>
+            </div>
+            <h4>{{ project.name }}</h4>
+            <p>{{ project.description }}</p>
+            <hr />
+          </label>
+        </a>
+        {% endfor %}
       </div>
     </div>
-    
+
     <div class="work-wrap">
       <div class="work-container">
-      <button class="work-return">
-        <p>
-          Go Back
-        </p>
-      </button>
-      <label for="return">
-        
-      </label>
-      <h4 class="project-title"></h4>
-      <div class="project-load"></div>
-      <label for="return">
-        <button class="btm-return">
-          <p>
-            See More
-          </p>
+        <button class="work-return">
+          <p>Go Back</p>
         </button>
-      </label>
-      
-      <noscript>
-        {% for project in site.data.settings.projects %}
+        <label for="return"> </label>
+        <h4 class="project-title"></h4>
+        <div class="project-load"></div>
+        <label for="return">
+          <button class="btm-return">
+            <p>See More</p>
+          </button>
+        </label>
+
+        <noscript>
+          {% for project in site.data.settings.projects %}
           <div class="noscript" id="content-{{ project.folder }}">
             <h4 class="project-title">{{ project.name }}</h4>
-            <div class="noscript-load">
-              {% include {{project.file}} %}
-            </div>
+            <div class="noscript-load">{% include {{project.file}} %}</div>
           </div>
-        {% endfor %}
-      </noscript>
-
+          {% endfor %}
+        </noscript>
       </div>
     </div>
-
   </div>
 </section>
-<hr>
+<hr />
